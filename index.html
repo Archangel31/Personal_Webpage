@@ -1,0 +1,160 @@
+<!-- /Users/spactatr/Downloads/ Archana_photo.jpg -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archana Meher - Personal Webpage</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #bb86fc;
+        }
+        h2, h3 {
+            color: #4fc3f7;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .photo {
+            max-width: 10%;
+            height: auto;
+            border-radius: 10px;
+        }
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ffffff;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="section">
+            <img src="/Users/spactatr/Documents/MyWebpage/ Archana_photo.jpg" alt="Archana Meher" class="photo">
+            <h1>Archana Meher</h1>
+        </header>
+        <section class="section">
+            <h2>About Me</h2>
+            <p>IIT Kharagpur’ 2024</p>
+            <p>Phone: +91-8260780158</p>
+            <p>Department of Mechanical Engineering, Micro-specialization in AI/ML</p>
+            <p>Email: <a href="mailto:archana.meher@kgpian.iitkgp.ac.in">archana.meher@kgpian.iitkgp.ac.in</a></p>
+        </section>
+        <section class="section">
+            <h2>Academic Qualifications</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Degree/Certificate</th>
+                    <th>Institute</th>
+                    <th>CPI/%</th>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>B.Tech</td>
+                    <td>Indian Institute of Technology, Kharagpur</td>
+                    <td>7.89</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>CBSE(XII)</td>
+                    <td>Mothers Public School, Bhubaneswar</td>
+                    <td>94.6%</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>CBSE(X)</td>
+                    <td>Kendriya Vidyalaya, Bhawanipatna</td>
+                    <td>94.6%</td>
+                </tr>
+            </table>
+        </section>
+        <section class="section">
+            <h2>Internships</h2>
+            <h3>Data Science Internship — Spectatr, Gurgaon (May’24 - Ongoing)</h3>
+            <ul>
+                <li>Performed detection of Players and their corresponding teams using YOLOv8 model and OpenCV library, including the detection of ball, referees and goalkeepers from Bundesliga football match; used OCR for goal detection using Scoreboard.</li>
+                <li>Trained custom dataset by annotating them into three different classes: ball, players and referees to improve the accuracy.</li>
+            </ul>
+            <h3>MITACS Research Internship — Lakehead University, Canada (May’23 - July’23)</h3>
+            <ul>
+                <li>Spearheaded the development of an innovative user authentication system harnessing brain signals, aimed at providing secure identity verification through EEG data and advanced machine learning and deep learning techniques.</li>
+                <li>Led the preprocessing of data by processing EDF format EEG files and standardizing the dataset using z-score normalization, ensuring consistency and facilitating comparison across 109 subjects each having 3 trials and unique EEG patterns.</li>
+                <li>Performed Spectral Decomposition across the 5 frequency bands, followed by spatial and temporal convolutions for feature extraction and achieved the accuracies of: SVM (0.87), CSP-LDA (0.9) and FBC-Net (0.92) respectively.</li>
+            </ul>
+            <h3>Chromatic Speller — Prof. Debasis Samanta — IIT Kharagpur (Feb’24 - April’24)</h3>
+            <ul>
+                <li>Developing a chromatic speller by using Brain-Computer Interface(BCI) technology, facilitating communication through color stimuli and EEG signals by using RGB colors on the computer screen, each color depicting group of alphabets.</li>
+                <li>Designed and implemented an innovative approach to figure out distinctions in EEG signals with respect to RGB color representation, with a focus on optimizing background color selection for improved visibility and interpretation.</li>
+                <li>Achieved accuracy of 0.87 and 0.9 with ML models such as SVM and KNN, while DL models, particularly CNNs, outperformed traditional methods, achieving the highest accuracy of 0.93 with accuracy of KNN being 0.9.</li>
+            </ul>
+            <h3>Research Internship — Indian Institute of Sciences(IISc), Bangalore (May’22 - July’22)</h3>
+            <ul>
+                <li>Utilized Open3D and CGAL libraries to streamline data processing, effectively managing large datasets for efficient analysis and manipulation, demonstrating proficiency in leveraging cutting-edge tools for computational geometry tasks.</li>
+                <li>Implemented a robust data pre-processing pipeline, by incorporating KNN algorithm for outliers removal and applying Regularization technique such as Lasso Regression and Ridge Regression to enhance the data quality and mitigate noise.</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Projects and Competitions</h2>
+            <h3>Credit Card Fraud Detection — Machine Learning (Mar’22)</h3>
+            <ul>
+                <li>Explored cost-sensitive techniques with different class weights for Decision Trees and penalty term 0.1 for Logistic Regression.</li>
+                <li>Evaluated SMOTE combined with RUS for resampling in imbalanced learning; speeding up the computation to 1.2 times.</li>
+                <li>Analyzed Bagging and weighted XGBoost models, achieving best AUC-ROC values of 0.919 and 0.925 respectively.</li>
+            </ul>
+            <h3>3rd RunnerUp — Data Analytics Competition — General Championship (Mar’23)</h3>
+            <ul>
+                <li>Forecasted the demand of fans by 4 different warehouses, examined previous years’ data and undertook EDA for data insights.</li>
+                <li>Implemented Lasso Regression to identify significant features and employed ARIMA, SARIMA and LSTM models.</li>
+                <li>Performed ADF test and applied ACF/PACF to determine optimal lag values and achieved a MAPE value of 0.44.</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Skills and Expertise</h2>
+            <ul>
+                <li>Programming Languages/Frameworks: C, C++, Python, SQL, JavaScript, React.JS, ML, DL, NLP</li>
+                <li>Libraries: NumPy, Pandas, Scikit-learn, TensorFlow, Keras, PyTorch, SciPy, Seaborn, Matplotlib, OpenCV</li>
+                <li>Tools and Softwares: Jupyter Notebook, VS Code, Linux, Google Colaboratory, MS Excel, MATLAB, Git</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Positions of Responsibility</h2>
+            <ul>
+                <li>Technology Secretary — Mother Teresa Hall of Residence (Sept’21 - May’22)</li>
+                <li>Conducted workshops and competitions, as part of the GC activities, fostering technological learning and participation.</li>
+                <li>UG Mentor — Under-Graduate Council, IIT Kharagpur (2021-2022)</li>
+                <li>Provided academic/non-academic guidance to 10 mentees(freshers) through regular meets and by sharing study materials.</li>
+                <li>NSS Volunteer — National Service Scheme, IIT Kharagpur (2021-2022)</li>
+                <li>Being a part of NSS, volunteered in teaching children, conducting surveys, and raising awareness on pertinent social issues.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
